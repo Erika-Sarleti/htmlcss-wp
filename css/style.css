@@ -96,7 +96,7 @@ h1{
 }
 .article.middle{
     float: left;
-    margin: 15px;
+    margin: 20px 15px;
     width: calc(60% - 30px);
 }
 .article.right{
@@ -105,10 +105,19 @@ h1{
 }
 
 .article-img{
-    height: 100px;
+    height: 250px;
     border-radius: 10px;
     width: 100%;
+}
+
+.article-img > img{
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.article-text{
+    padding: 20px 0;
 }
 
 .main-article::after{
