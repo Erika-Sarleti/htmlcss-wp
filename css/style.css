@@ -17,7 +17,7 @@ header{
 header > img{
     width: 10rem;
 }
-/* Fine Header */
+
 
 /* Nav bar */
 nav{
@@ -39,8 +39,8 @@ a{
 a:visited{
     color: #b9b8ba;
 }
-/* fine nav bar */
 
+/* inizio main */
 main > div{
     margin: 30px auto 0;
     width: 80%;
@@ -70,23 +70,26 @@ p{
     font-weight: 300;
     
 }
-/* fine carosello */
 
+
+/* articolo */
 .main-article{
-    /* background-color: #0185ff; */
     margin-bottom: 10px;
 }
-
+    /* titolo */
 .section-header{
     width: 100%;
-    /* background-color: #abcfe7; */
 }
 h1{
     padding-top: 1.5em;
 }
 .subtitle{
     color: #b9b8ba ;
+    padding-bottom: 20px; 
+    display: inline-block;
 }
+
+    /* content */
 .article{
     margin: 20px 0;
 }
@@ -120,16 +123,31 @@ h1{
     padding: 20px 0;
 }
 
+h3{
+    font-weight: 500;
+}
+.article-text > p{
+  color:#c9c8c9;
+}
+
 .main-article::after{
     content: "";
     display: table;
     clear: both;
 }
+
+
+/* footer */
 footer{
-    /* background-color: #8801fe; */
-    width: 80%;
-    margin: 0 auto 20px;
-    height: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #807f81;
+    display: inline-block;
+    text-align: center;
+}
+.heart{
+    color: #eb3324;
+    font-size: 20px;
 }
 img{
     filter:brightness(0.80);
