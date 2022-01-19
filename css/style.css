@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* CSS header */
 header{
     font-size: 20px;
     width: 80%;
@@ -15,13 +16,32 @@ header{
 header > img{
     width: 10rem;
 }
+/* Fine Header */
+
+/* Nav bar */
 nav{
     padding-top: 30px;
     color: #b9b8ba;
 }
+ul{
+    list-style-type: disc;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    color: #b9b8ba;
+}
+a{
+    text-decoration: none;
+
+}
+a:visited{
+    color: #b9b8ba;
+}
+/* fine nav bar */
+
 main > div{
     margin: 30px auto 0;
-    height: 800px;
     width: 80%;
 }
 
@@ -77,7 +97,7 @@ footer{
     margin: 0 auto 20px;
     height: 70px;
 }
-img{
+main img{
     filter:brightness(0.80);
     border-radius: 10px;
 }
